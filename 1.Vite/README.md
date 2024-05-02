@@ -13,14 +13,35 @@
 - 프론트엔드 개발 생태계에서는 모듈 번들러로 웹팩을 사용하고 있다.
 
 ## Vite 시작하기
+
+### nodeJS 설치하기
+![image](img/install_node.png)
+
+### 프로젝트를 저장할 폴더 만들기
+![image](img/makedir.png)
+
+### vscode 설치하기
+![image](img/install_vscode.png)
+
+### vscode에서 생성한 폴더를 오픈한다.
+![image](img/openfolder.png)
+
+### 터미널을 연다
+![image](img/openterminal.png)
+
 ```js
 npm create vite@latest
 npm create vite@latest 프로젝트명 --template react
 ```
 
+### 라이브러리를 선택한다.
+![image](img/select_framework.png)
 
-![image](img/vite_framework.png)
+### 언어를 선택한다.
+![image](img/selectLanguage.png)
 
+### 프로젝트 생성 완료
+![image](img/make_project.png)
 - 만들어진 Vite 프로젝트를 보면 index.html이 public 디렉토리가 아닌 프로젝트의 루트(root)에 위치해 있는 것을 볼 수 있다.
 - 추가적인 번들링 과정 없어 index.html 파일이 앱의 진입점이 되게끔 하기 위함이다.
 
