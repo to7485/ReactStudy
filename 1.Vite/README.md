@@ -1,6 +1,8 @@
 # 리액트 시작하기
 ## Vite
-![imag](img/vite.png)
+<p align="center">
+  <img src="img/vite.png">
+</p>
 - Vue의 창시자 Evan You가 만든 새로운 프론트엔드 도구로 프랑스어로 "빠르다(Quick)"를 의미한다.
 - 빠르고 간결한 모던 웹 프로젝트 개발 경험에 초점을 맞춰 탄생한 빌드 도구이다.
 - 현재 Vue, React, Svelte등의 주요 프론트엔드 라이브러리, 프레임워크 커뮤니티에서 주목하고 있다.
