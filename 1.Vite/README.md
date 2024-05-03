@@ -42,9 +42,6 @@
 - 따라서 서비스가 커질수록 소스 코드 갱신 시간 또한 선형적으로 증가하게 된다.
 - Vite는 수정된 모듈과 관련된 부분만 교체를 진행하고, 브라우저에서 해당 모듈을 요청하면 교체된 모듈을 전달하는 방식이다.
 
-
-
-
 ## Vite 시작하기
 
 ### nodeJS 설치하기
@@ -79,19 +76,6 @@ npm create vite@latest 프로젝트명 --template react //프로젝트명이나 
 
 ### 프로젝트 생성 완료
 ![image](img/make_project.png)
-
-
-## Vite로 만든 React 프로젝트의 구조
-- 만들어진 Vite 프로젝트를 보면 index.html이 public 디렉토리가 아닌 프로젝트의 루트(root)에 위치해 있는 것을 볼 수 있다.
-- 추가적인 번들링 과정 없어 index.html 파일이 앱의 진입점이 되게끔 하기 위함이다.
-![image](img/index.png)
-- index.html: 웹 브라우저에 로드된는 정적 HTML파일이다. React 애플리케이션을 초기화하고 렌더링하는 중요한 역할을 수행한다.
-- package.json: 프로젝트의 의존성과 스크립트를 정의한 파일입니다.
-- public: 정적 파일을 저장하는 디렉토리입니다.
-- src: React 애플리케이션의 소스코드를 저장하는 디렉토리입니다.
-- src/main.tsx: React 애플리케이션의 논리적인 진입점입니다.
-- tsconfig.json: TypeScript 설정 파일입니다.
-- vite.config.js: Vite 설정 파일입니다.
 
 ### 프로젝트 실행하기
 ```node

@@ -24,3 +24,17 @@
 - 인라인 스타일링은 항상 객체 형식으로 작성
 - 별도의 스타일 파일을 만들었으면 class 대신 className 사용
 - 주석은 {/* */}을 사용
+
+## Vite로 만든 React 프로젝트의 구조
+- 만들어진 Vite 프로젝트를 보면 index.html이 public 디렉토리가 아닌 프로젝트의 루트(root)에 위치해 있는 것을 볼 수 있다.
+- 추가적인 번들링 과정 없어 index.html 파일이 앱의 진입점이 되게끔 하기 위함이다.
+
+![image](img/index.png)
+
+- index.html: 웹 브라우저에 로드된는 정적 HTML파일이다. React 애플리케이션을 초기화하고 렌더링하는 중요한 역할을 수행한다.
+- package.json: 프로젝트의 의존성과 스크립트를 정의한 파일입니다.
+- public: 정적 파일을 저장하는 디렉토리입니다.
+- src: React 애플리케이션의 소스코드를 저장하는 디렉토리입니다.
+- src/main.tsx: React 애플리케이션의 논리적인 진입점입니다.
+- tsconfig.json: TypeScript 설정 파일입니다.
+- vite.config.js: Vite 설정 파일입니다.
